@@ -4,4 +4,4 @@ cache:
   directories:
     - $HOME/.cache/pip
     - $HOME/.cache/lektor/builds
-install: git clone https://github.com/rhysmoyne/creative-kids-dokuwiki.git && cd creative-kids-dokuwiki && ./travis-install.sh
+install: git clone https://$GH_TOKEN@github.com/rhysmoyne/creative-kids-dokuwiki.git && cd creative-kids-dokuwiki && ./travis-install.sh
