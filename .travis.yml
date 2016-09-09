@@ -6,3 +6,6 @@ cache:
     - $HOME/.cache/lektor/builds
 install: git clone https://$GH_TOKEN@github.com/rhysmoyne/creative-kids-dokuwiki.git && cd creative-kids-dokuwiki && ./travis-install.sh
 script: echo 0
+notifications:
+  recipients:
+    - rhys@creativekidssa.com.au
