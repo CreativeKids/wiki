@@ -3,6 +3,6 @@
 
 Welcome to the Creative Kids Wiki! This contains documentation and other information shared by students and teachers learning about creative computer programming! Enjoy!
 
-[Writing a Good Project](Writing_a_Good_Project)
+[Writing a Good Project](Writing_a_Good_Project.md)
 
 
