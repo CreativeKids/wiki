@@ -1,6 +1,6 @@
 # Scratch Blocks Syntax 
 
-In Creative Kids projects, Scratch blocks can be written by using ` ```blocks` and then writing a line of text for each block in Scratch.
+In Creative Kids projects, Scratch blocks can be written by using ``blocks and then writing a line of text for each block in Scratch.
 
 For example
 
