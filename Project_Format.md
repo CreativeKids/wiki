@@ -27,7 +27,7 @@ translator: George Gently
 
 ## Project Instructions
 
-Followed by the metadata, a project should have a field called `instructions`. This describes the project in Markdown syntax. Use {.section-name} syntax to indicate the different sections of a project. Valid sections are: `{.intro}, {.activity}, {.check}, {.challenge}, {.tip}, {.flag}, {.save}, {.try}`. To add Scratch blocks to a project use `blocks` followed by the Scratch code. For example:
+Followed by the metadata, a project should have a field called `instructions`. This describes the project in Markdown syntax. Use {.section-name} syntax to indicate the different sections of a project. Valid sections are: `{.intro}, {.activity}, {.check}, {.challenge}, {.tip}, {.flag}, {.save}, {.try}`. To add Scratch blocks to a project use ``blocks followed by the Scratch code. For example:
 
 ```
 
