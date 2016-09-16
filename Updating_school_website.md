@@ -1,4 +1,4 @@
-# Updating [school-website](https://github.com/CreativeKids/school-website) for the Raspberry Pi Computer
+# Updating [school-website](https://github.com/CreativeKids/school-website) on the Raspberry Pi Computer
 
 As [school-website](https://github.com/CreativeKids/school-website) uses submodules you will need to:
 
