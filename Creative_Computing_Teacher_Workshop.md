@@ -5,6 +5,7 @@ This is a six-week long workshop for educators who want to learn more about usin
 The workshop is based upon materials provided by members of the ScratchEd Team at Harvard University available online at [https://creative-computing.appspot.com](https://creative-computing.appspot.com).
 
 {{creative_computing_workshop_intro.mp4|}}
+
 [![](http://img.youtube.com/vi/u--xVpmw1Zk/0.jpg)](https://www.youtube.com/watch?v=u--xVpmw1Zk "Creative Computing Online Workshop")
 
 * [Week 1](Week_1_p1.md)
