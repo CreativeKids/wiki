@@ -8,4 +8,4 @@ Although a good project is simple, clear and has a step-by- step list of actions
 
 Use challenges to offer opportunities for advanced students to demonstrate their knowledge. It also ensures that no student is left saying “What do I do now?” 
 
-Finally, focus on fun. Don’t forget that goal of these projects is to inspire children to become interested in technology and be inspired to create their own creative computer programming projects. By always keeping this goal in mind when creating projects, you can ensure that students will have a happy, enjoyable experience and want to come back again!
+Finally, focus on fun. Don’t forget that the goal of these projects is to inspire children to become interested in technology and be inspired to create their own creative computer programming projects. By always keeping this goal in mind when creating projects, you can ensure that students will have a happy, enjoyable experience and want to come back again!
