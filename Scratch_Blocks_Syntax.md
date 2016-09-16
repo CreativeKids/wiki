@@ -1,4 +1,4 @@
-# Scratch Blocks Syntax
+# Scratch Blocks Syntax<sup>1</sup>
 
 In Creative Kids projects, Scratch blocks can be written by using ```blocks and then writing a line of text for each block in Scratch.
 
@@ -18,3 +18,6 @@ forever
 
 Would display:
 
+![](scratch_blocks_plugin_img1.png)
+
+<sup>1</sup>Based upon https://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
