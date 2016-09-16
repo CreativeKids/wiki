@@ -1,4 +1,4 @@
-# Markdown Guide (based upon https://simplemde.com/markdown-guide)
+# Markdown Guide<sup>1</sup>
 
 ## Emphasis
 
@@ -39,3 +39,5 @@
 ```
 ![](http://www.example.com/image.jpg)
 ```
+
+<sup>1</sup>Based upon https://simplemde.com/markdown-guide
