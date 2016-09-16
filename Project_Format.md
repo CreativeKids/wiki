@@ -78,6 +78,6 @@ A note to test:
 A tip.
 </pre>
 
-For more information about the Scratch blocks syntax please see this page. For more information about Markdown syntax please see here. 
+For more information about the Scratch blocks syntax please see this page. For more information about Markdown syntax please see [here](Markdown_Guide.md). 
 
 <sup>1 Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See http://scratch.mit.edu.</sup>
