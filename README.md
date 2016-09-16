@@ -2,8 +2,9 @@
 
 Welcome to the Creative Kids Wiki! This contains documentation and other information shared by students and teachers learning about creative computer programming! Enjoy!
 
-    
-* [Home](README.md)
+
+
+
 * [Project Format](Project_Format.md)
   * [Markdown Guide](Markdown_Guide.md)
   * [Scratch Blocks Syntax](Scratch_Blocks_Syntax.md)

@@ -27,9 +27,10 @@ translator: George Gently
 
 ## Project Instructions
 
-Followed by the metadata, a project should have a field called `instructions`. This describes the project in Markdown syntax. Use {.section-name} syntax to indicate the different sections of a project. Valid sections are: `{.intro}, {.activity}, {.check}, {.challenge}, {.tip}, {.flag}, {.save}, {.try}`. To add Scratch blocks to a project use ```blocks followed by the Scratch code. For example:
+Followed by the metadata, a project should have a field called `instructions`. This describes the project in Markdown syntax. Use {.section-name} syntax to indicate the different sections of a project. Valid sections are: `{.intro}, {.activity}, {.check}, {.challenge}, {.tip}, {.flag}, {.save}, {.try}`. To add Scratch blocks to a project use ` ```blocks` followed by the Scratch code. For example:
 
-<pre>
+```
+
 ---
 instructions:
 
@@ -52,10 +53,10 @@ Each lesson should be broken down into steps.
 Each step has a series of checklists.
 
 Here we are including code:
-```blocks
+ ```blocks
 when FLAG clicked
 move 10 steps
-
+ ```
 
 ## Things to try {.try}
 
@@ -76,7 +77,7 @@ A note to test:
 ## Heads up! {.tip}
 
 A tip.
-</pre>
+```
 
 For more information about the Scratch blocks syntax please see [this page](Scratch_Blocks_Syntax.md). For more information about Markdown syntax please see [here](Markdown_Guide.md). 
 

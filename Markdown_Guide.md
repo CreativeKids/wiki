@@ -1,4 +1,4 @@
-# Markdown Guide<sup>1</sup>
+# Markdown Guide
 
 ## Emphasis
 
