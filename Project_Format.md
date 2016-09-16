@@ -29,16 +29,55 @@ translator: George Gently
 
 Followed by the metadata, a project should have a field called `instructions`. This describes the project in Markdown syntax. Use {.section-name} syntax to indicate the different sections of a project. Valid sections are: `{.intro}, {.activity}, {.check}, {.challenge}, {.tip}, {.flag}, {.save}, {.try}`. To add Scratch blocks to a project use ```blocks followed by the Scratch code. For example:
 
-```
+<pre>
 ---
 instructions:
 
 # Introduction {.intro}
 
+Each lesson should begin with an introduction, followed by a project thumbnail.
+
+![](thumbnail.png)
+
+# Step 1 - Draw a Cat {.activity}
+
+Each lesson should be broken down into steps.
+
+## Activity checklist {.check} 
+
++ Do this
+
++ Do that
+
+Each step has a series of checklists.
+
 Here we are including code:
 ```blocks
 when FLAG clicked
 move 10 steps
-```
+
+
+## Things to try {.try}
+
+Each step can have things to optionally try.
+
+## Challenge {.challenge}
+
+Each step can have challenges too.
+
+## Save Your Project {.save}
+
+A note to save:
+
+## Test Your Project {.flag}
+
+A note to test:
+
+## Heads up! {.tip}
+
+A tip.
+</pre>
+
+For more information about the Scratch blocks syntax please see this page. For more information about Markdown syntax please see here. 
 
 <sup>1 Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See http://scratch.mit.edu.</sup>
