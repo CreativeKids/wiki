@@ -4,3 +4,4 @@ As [school-website](https://github.com/CreativeKids/school-website) uses submodu
 
 1. `git pull`
 2. `git submodule update --recursive`
+3. `lektor deploy`
