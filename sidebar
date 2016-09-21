@@ -1,23 +1,28 @@
 [Home](README.md)
 
-[Project Format](Project_Format.md)
+[Students](Students.md)
 
-* [Markdown Guide](Markdown_Guide.md)
-* [Scratch Blocks Syntax](Scratch_Blocks_Syntax.md)
+* [Projects](Student_Projects.md)
+* [Tips and Tricks](Tips_and_Tricks.md)
+* [Stories and Discussion](Stories_and_Discussion.md)
 
-[Writing a Good Project](Writing_a_Good_Project.md)
+[Teachers](Teachers.md)
 
-[Deploying school-website to a Raspberry Pi Computer](Deploying_to_a_Raspberry_Pi.md)
 
-[Updating school-website on a Raspberry Pi Computer](Updating_school_website.md)
+* [Creative Computing Workshop](Creative_Computing_Teacher_Workshop.md)
 
-[Creative Computing Teacher Workshop](Creative_Computing_Teacher_Workshop.md)
+[Content Creators](Content_Creators.md)
 
-* [Week 1](Week_1_p1.md)
-* [Week 2](Week_2_p1.md)
-* [Week 3](week_3_p1.md)
-* [Week 4](week_4_p1.md)
-* [Week 5](week_5_p1.md)
-* [Week 6](week_6_p1.md)
 
-    
+* [Writing a Good Project](Writing_a_Good_Project.md)
+* [Creating a New Gallery](New_Gallery.md)
+
+[Admin](Admin.md)
+
+* [Managing school-website](Managing_school_website.md)
+* [Updating school-website](Updating_school_website.md)
+* [Deploying school-website](Deploying_to_a_Raspberry_Pi.md)
+* [Backing up school-website](Backup_school_website.md)
+* [Sharing contributions with Creative Kids](Sharing_Changes.md)
+
+[Credits](Credits.md)

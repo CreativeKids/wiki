@@ -1,4 +1,4 @@
-# Creative Computing Teacher Workshop
+# Creative Computing Workshop
 
 This is a six-week long workshop for educators who want to learn more about using Scratch and supporting computational thinking in the classroom and other learning environments.
 
