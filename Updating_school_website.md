@@ -2,6 +2,7 @@
 
 As [school-website](https://github.com/CreativeKids/school-website) uses submodules you will need to:
 
-1. `git pull`
-2. `git submodule update --recursive`
-3. `lektor deploy`
+1. SSH into the server
+2. `cd lektor/school-website`
+3. `git pull && git submodule update --recursive`
+4. `lektor build -O build && lektor deploy`
