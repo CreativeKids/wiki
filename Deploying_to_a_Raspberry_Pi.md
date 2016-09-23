@@ -162,3 +162,39 @@ sudo chown root:guest share
 sudo chmod 775 share
 sudo /etc/init.d/ssh restart
 ```
+
+## Ad-hoc Wifi Network
+
+From: http://slicepi.com/creating-an-ad-hoc-network-for-your-raspberry-pi/
+
+```
+$ sudo apt-get install dnsmasq
+$ sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
+$ sudo vim.tiny /etc/dnsmasq.conf  
+
+interface=wlan0      # Use interface wlan0  
+listen-address=192.168.49.1 # Explicitly specify the address to listen on  
+bind-interfaces      # Bind to the interface to make sure we aren't sending things elsewhere  
+server=8.8.8.8       # Forward DNS requests to Google DNS  
+domain-needed        # Don't forward short names  
+bogus-priv           # Never forward addresses in the non-routed address spaces.  
+dhcp-range=192.168.49.50,192.168.49.150,12h # Assign IP addresses between 192.168.49.50 and 192.168.49.150 with a 12 hour lease time 
+
+$ sudo vim.tiny /etc/network/interfaces
+
+auto wlan0
+iface wlan0 inet static
+address 192.168.49.1
+netmask 255.255.255.0
+wireless-channel 1
+wireless-essid RPiwireless
+wireless-mode ad-hoc
+
+$ sudo service dnsmasq start  
+$ sudo ifdown wlan0 && sudo ifup wlan0
+```
+
+## Useful URLs
+
+https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
+https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview
