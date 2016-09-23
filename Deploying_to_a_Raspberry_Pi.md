@@ -134,3 +134,30 @@ $ sudo chmod -R 777 wiki/data/
 $ ssh-keygen -t rsa -b 4096 -C "rpi@creativekidssa.com.au"
 $ cat /home/pi/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
+
+## SFTP Share
+
+```
+sudo useradd -m -s /dev/null guest
+sudo passwd guest
+sudo vim.tiny /etc/ssh/sshd_config
+
+Subsystem sftp internal-sftp
+
+Match User guest
+    ChrootDirectory /home/guest
+    AllowTCPForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+    PermitTunnel no
+    AllowAgentForwarding no
+
+
+sudo chown root:root /home/guest
+cd /home/guest/
+sudo rm .bash* profile
+sudo mkdir share
+sudo chown root:guest share
+sudo chmod 775 share
+sudo /etc/init.d/ssh restart
+```
