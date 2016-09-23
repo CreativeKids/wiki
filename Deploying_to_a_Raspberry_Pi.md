@@ -131,5 +131,6 @@ group = pi
 $ sudo rm /var/run/php5-fpm.sock
 $ sudo /etc/init.d/php5-fpm restart
 $ sudo chmod -R 777 wiki/data/
-
+$ ssh-keygen -t rsa -b 4096 -C "rpi@creativekidssa.com.au"
+$ cat /home/pi/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
