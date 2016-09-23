@@ -11,9 +11,10 @@ These instructions provide an explanation of how to set-up [school-website](http
 ## Install Dependencies
 
 1. Login/SSH with username `pi` and password `raspberry`
-2. Update installed packages `sudo apt-get update && sudo apt-get upgrade`
-3. Install necessary packages `sudo apt-get install git python-dev libssl-dev libffi-dev virtualenv zip nginx php5-fpm imagemagick`
-4. Install Node
+2. Set new password with `passwd`
+3. Update installed packages `sudo apt-get update && sudo apt-get upgrade`
+4. Install necessary packages `sudo apt-get install git python-dev libssl-dev libffi-dev virtualenv zip nginx php5-fpm imagemagick`
+5. Install Node
 
 ```
 $ curl -LO https://nodejs.org/dist/v4.5.0/node-v4.5.0-linux-armv7l.tar.xz
