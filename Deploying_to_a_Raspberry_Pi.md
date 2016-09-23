@@ -12,7 +12,7 @@ These instructions provide an explanation of how to set-up [school-website](http
 
 1. Login/SSH with username `pi` and password `raspberry`
 2. Update installed packages `sudo apt-get update && sudo apt-get upgrade`
-3. Install necessary packages `sudo apt-get install git python-dev libssl-dev libffi-dev virtualenv zip nginx php5-fpm`
+3. Install necessary packages `sudo apt-get install git python-dev libssl-dev libffi-dev virtualenv zip nginx php5-fpm imagemagick`
 4. Install Node
 
 ```
@@ -27,6 +27,7 @@ $ source ~/.bashrc
 ## Lektor
 
 ```
+$ curl -sf https://www.getlektor.com/install.sh | sh
 $ git clone https://github.com/rhysmoyne/lektor
 $ cd lektor
 $ cd lektor/admin
@@ -109,6 +110,8 @@ $ sudo ln -s /etc/nginx/sites-available/school-website /etc/nginx/sites-enabled/
 $ sudo vim.tiny /etc/nginx/nginx.conf
 
 Change user to pi
+Add
+client_max_body_size 100m;
 
 $ sudo /etc/init.d/nginx restart
 $ sudo vim.tiny /etc/php5/fpm/php-fpm.conf
@@ -116,6 +119,14 @@ $ sudo vim.tiny /etc/php5/fpm/php-fpm.conf
 Add 
 listen.owner = pi
 listen.group = pi
+
+Change
+upload_max_filesize = 100M
+post_max_size = 100M
+
+$ sudo vim.tiny /etc/php5/fpm/pool.d/www.conf
+user = pi
+group = pi
 
 $ sudo rm /var/run/php5-fpm.sock
 $ sudo /etc/init.d/php5-fpm restart
