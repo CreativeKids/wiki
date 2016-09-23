@@ -6,3 +6,7 @@ As [school-website](https://github.com/CreativeKids/school-website) uses submodu
 2. `cd lektor/school-website`
 3. `git pull && git submodule update --recursive`
 4. `lektor build -O build && lektor deploy`
+
+OR
+
+Go to: http://raspberrypi.local/update.php
