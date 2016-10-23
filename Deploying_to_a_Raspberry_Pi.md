@@ -194,6 +194,38 @@ $ sudo service dnsmasq start
 $ sudo ifdown wlan0 && sudo ifup wlan0
 ```
 
+## Files
+
+```
+$ sudo vim.tiny /etc/nginx/sites-available/school-website
+        location /files {
+              alias /home/guest;
+              autoindex on;
+        }
+$ id
+$ sudo blkid
+$ sudo mkdir /home/guest/usb
+$ sudo chown guest:guest /home/guest/usb
+$ sudo vim.tiny /etc/fstab
+UUID=C4F4-6BE5 /home/guest/usb vfat auto,users,rw,uid=1001,gid=1001,umask=0002 0 0
+```
+
+## Scratch Offline
+
+```
+$ cd ~/lektor/school-website/assets
+$ git clone https://gitlab.com/rhysmoyne/scratchx-offline.git scratch
+$ sudo vim.tiny js/scratchx.js
+        siteCdnPrefix: "http://raspberrypi.local/scratch/",
+        assetPrefix: "http://assets.scratch.mit.edu/",
+        assetCdnPrefix: "http://raspberrypi.local/scratchx/",
+$ sudo vim.tiny /etc/nginx/sites-available/school-website
+        location /scratch {
+                rewrite ^/scratch/internalapi/asset/(.*)/.*/$ /scratch/internalapi/asset.php?asset=$1 last;
+                rewrite ^/scratch/scratchr2/static/medialibrarythumbnails/(.*)$ /scratch/internalapi/asset.php?asset=$1 last;
+        }
+```
+
 ## Useful URLs
 
 https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
