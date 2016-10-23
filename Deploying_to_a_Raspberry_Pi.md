@@ -226,6 +226,17 @@ $ sudo vim.tiny /etc/nginx/sites-available/school-website
         }
 ```
 
+## Wiki Hack
+
+```
+$ mv assets/wiki .
+$ sudo vim.tiny /etc/nginx/sites-available/school-website
+        location /wiki {
+                alias /home/pi/lektor/school-website/wiki;
+        }
+$
+```
+
 ## Useful URLs
 
 https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
